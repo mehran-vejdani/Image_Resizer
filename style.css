@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alkatra", cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #927dfc;
+}
+.wrapper {
+  width: 450px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 9px;
+}
+.upload-box {
+  height: 225px;
+  border: 2px dashed #afafaf;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.upload-box p {
+  font-size: 1.06rem;
+  margin-top: 20px;
+}
+.content {
+  margin-top: 28px;
+}
+.content .row {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  width: calc(100% / 2 - 15px);
+}
+.column label {
+  font-size: 1.06rem;
+}
+.sizes .column input {
+  width: 100%;
+  height: 49px;
+  border: 1px solid #aaa;
+  outline: none;
+  padding: 0 15px;
+  border-radius: 4px;
+  font-size: 1.06rem;
+  margin-top: 7px;
+}
+.sizes .column input:focus {
+  border: 2px solid #927dfc;
+}
+.content .checkboxes {
+  margin-top: 20px;
+}
+.checkboxes .column input {
+  width: 17px;
+  height: 17px;
+  accent-color: #927dfc;
+  margin-right: 9px;
+}
+.download-btn {
+  width: 100%;
+  padding: 15px 0;
+  margin: 30px 0 10px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #927dfc;
+  text-transform: uppercase;
+}

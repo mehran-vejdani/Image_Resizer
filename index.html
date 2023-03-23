@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Resizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="upload-box">
+        <img src="upload.png" alt="img" />
+        <p>Browes File to Upload</p>
+      </div>
+      <div class="content">
+        <div class="row sizes">
+          <div class="column with">
+            <label for="">Width</label>
+            <input type="number" />
+          </div>
+
+          <div class="column height">
+            <label for="">height</label>
+            <input type="number" />
+          </div>
+        </div>
+        <div class="row checkboxes">
+          <div class="column ration">
+            <input type="checkbox" id="ration" />
+            <label for="ration">Lock aspect ratio</label>
+          </div>
+          <div class="column quality">
+            <input type="checkbox" id="quality" />
+            <label for="quality">reduce quality</label>
+          </div>
+        </div>
+        <button class="download-btn">Download Image</button>
+      </div>
+    </div>
+  </body>
+</html>
